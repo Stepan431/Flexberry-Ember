@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('speakers');
+  this.route('error');
+  this.route('not-found', { path: "*path" });
 });
 
 export default Router;

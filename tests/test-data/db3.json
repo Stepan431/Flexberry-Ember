@@ -1,0 +1,56 @@
+{
+	"books":[
+		{
+			"id": 1,
+			"bookName":"Строговы",
+			"pagesCount": 704,
+			"cover":"A",
+			"tags":["Исторический роман"],
+			"averageRating":6
+		},
+				{
+			"id":2,
+			"bookName":"О человеке: трактат",
+			"pagesCount":78,
+			"cover":"B",
+			"tags":["Исторический роман"],
+			"averageRating":7
+		},
+				{
+			"id":3,
+			"bookName":"Механика жидкости и газа Учебное пособие",
+			"pagesCount":208,
+			"cover":"C",
+			"tags":["Наука и техника"],
+			"averageRating":7
+		},
+				{
+			"id":4,
+			"bookName":"Шесть невозможностей: Загадки квантового мира",
+			"pagesCount": 141,
+			"cover":"D",
+			"tags":["Наука и техника"],
+			"averageRating":8
+		}
+	],
+	"speakers" :[
+		{
+			"id":1,
+			"firstName":"Дмитрий",
+			"middleName":"Алексеевич",
+			"lastName":"Бураков"
+		},
+				{
+			"id":2,
+			"firstName":"Иван",
+			"middleName":"Анатольевич",
+			"lastName":"Собянин"
+		},
+				{
+			"id":3,
+			"firstName":"Дмитрий",
+			"middleName":"Николаевич",
+			"lastName":"Махонин"
+		}
+	]
+}
