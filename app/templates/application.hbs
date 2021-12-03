@@ -1,9 +1,11 @@
 
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
+  {{#link-to "index"}}
+  <div class="navbar-brand" >
     <img src="images/logo-dark.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
       Книжный клуб
-  </a>
+  </div>
+  {{/link-to}}
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Открыть меню">
     <span class="navbar-toggler-icon"></span>
   </button>
