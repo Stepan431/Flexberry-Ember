@@ -12,7 +12,8 @@ Router.map(function() {
     this.route('create');
     this.route('edit', {path: "/:id/edit"})
   });
-  this.route('not-found', { path: "*path" });
+  this.route('not-found', { path: "/*path" });
+  this.route('error',{path: "/:error"})
 });
 
 export default Router;
