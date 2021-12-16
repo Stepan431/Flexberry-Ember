@@ -10,13 +10,13 @@ body {
   color: #263148;
 }
 .container h-100 {
-  align-content: center;
   position:absolute;
   padding-bottom: 70;
   margin: auto 0;
 }
 
-.ember-view{
+.index-vertical-align-container{
+  vertical-align: center;
   height: 100%;
 }
 
@@ -58,6 +58,7 @@ a:hover {
 .htop {
   padding-top: 70px;
   padding-bottom: 60px;
+  height: 100%;
 }
 
 a.tag-link {

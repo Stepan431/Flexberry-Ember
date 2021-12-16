@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'flexberry-ember',
+    backendURL: 'http://localhost:3000',
     environment,
     rootURL: '/',
     locationType: 'auto',
